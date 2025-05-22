@@ -1,0 +1,90 @@
+{
+  "estudiantes": [
+    {
+      "id": 1,
+      "nombre": "Ana Gómez",
+      "email": "ana@example.com",
+      "cursos": []
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos López",
+      "email": "carlos@example.com",
+      "cursos": []
+    },
+    {
+      "id": 3,
+      "nombre": "María Pérez",
+      "email": "maria@example.com",
+      "cursos": []
+    }
+  ],
+  "cursos": [
+    {
+      "id": 101,
+      "nombre": "Python Básico",
+      "descripcion": "Introducción a Python",
+      "nivel": "Básico",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": []
+    },
+    {
+      "id": 102,
+      "nombre": "Python Intermedio",
+      "descripcion": "Conceptos avanzados de Python",
+      "nivel": "Intermedio",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": [
+        101
+      ]
+    },
+    {
+      "id": 103,
+      "nombre": "Python Avanzado",
+      "descripcion": "Programación avanzada con Python",
+      "nivel": "Avanzado",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": [
+        102
+      ]
+    },
+    {
+      "id": 201,
+      "nombre": "Bases de Datos Básico",
+      "descripcion": "Introducción a las bases de datos",
+      "nivel": "Básico",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": []
+    },
+    {
+      "id": 202,
+      "nombre": "Bases de Datos Avanzado",
+      "descripcion": "Diseño avanzado de bases de datos",
+      "nivel": "Avanzado",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": [
+        201
+      ]
+    },
+    {
+      "id": 301,
+      "nombre": "Web Development",
+      "descripcion": "Desarrollo web completo",
+      "nivel": "Avanzado",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": [
+        102,
+        201
+      ]
+    }
+  ],
+  "cursos_eliminados": [],
+  "materiales_eliminados": [],
+  "prerequisitos_eliminados": {}
+}

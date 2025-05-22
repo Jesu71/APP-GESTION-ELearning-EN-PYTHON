@@ -1,0 +1,7 @@
+Para hacer funcionar esto es necesario instalar tkinter al python desde consola 
+
+*COMANDO AQUI*
+
+pip install tkinter
+
+NOTA: Obviamente deben tener ya pip instalado y también actualizado... Para que les funcione de mejor forma aun, usar la version 3.11.1 de 64 bits de python ahi es donde fue creada esta dicha app. 
